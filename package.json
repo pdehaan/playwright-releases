@@ -1,21 +1,32 @@
 {
   "name": "playwright-releases",
-  "version": "1.0.0",
   "description": "",
-  "bin": "cli.js",
-  "main": "lib.js",
-  "type": "module",
-  "scripts": {
-    "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
+  "bin": {
+    "playwright-releases": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/playwright-releases/issues"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.7",
     "octokit": "^3.1.0"
-  }
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/playwright-releases#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "lib.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/playwright-releases.git"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module"
 }
